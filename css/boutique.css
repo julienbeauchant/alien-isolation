@@ -1,0 +1,10 @@
+#boutiqueBackground {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/img/station-spatial-green.jpeg);
+    background-size:cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

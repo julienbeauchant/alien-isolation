@@ -1,0 +1,36 @@
+#accueilBackground {
+    width: 100vw;
+    height: 100vh;
+    /* background-image: url(/img/planete.jpg); */
+    background: linear-gradient(to bottom, transparent, 85%, rgb(0, 0, 0)),
+    url("/img/planete.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.positionH1 {
+    width: 40%;
+    height: 85%;
+    font-size: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.isolation {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cercle {
+    position: absolute;
+    width: 2%;
+    height: 2%;
+    clip-path: circle(7px);
+    left: 1100px;
+    top: 350px;
+    background-color: white;
+}
