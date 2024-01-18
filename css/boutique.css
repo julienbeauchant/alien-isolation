@@ -9,14 +9,17 @@
     align-items: center;
 }
 
+.boutique {
+    border-top-right-radius: 7px;
+}
+
 .notification {
     position: absolute;
-    z-index: 1;
     width: 2%;
     height: 2%;
     clip-path: circle(7px);
-    top: 8.5%;
-    left: 91%;
+    top: 9.3%;
+    left: 91.2%;
     background-color: red;
 }
 
@@ -53,7 +56,7 @@
 .backJeux {
     border-radius: 5px;
     border: 0.5px solid white;
-    background-color: rgba(255, 255, 255, 0.05);
+    background-color: rgba(255, 255, 255, 0.02);
     backdrop-filter: blur(15px);
     -webkit-backdrop-filter: blur(15px);
 }
@@ -68,11 +71,14 @@
 .selectionJeux article {
     width: 90%;
     height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .selectionJeux article img {
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    height: 90%;
     object-fit: contain;
 }
 

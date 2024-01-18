@@ -10,25 +10,17 @@
 }
 
 .containerForm {
-    width: 50%;
-    height: 80%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* background-color: red; */
-}
-
-.positionForm {
     position: relative;
     left: 10%;
     top: -5%;
-    width: 30%;
-    height: 80%;
+    /* width: 30%; */
+    width: clamp(300px, 35%, 35%);
+    height: clamp(500px, 80%,80%);
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 0.2px solid white;
-    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid white;
+    background-color: rgba(255, 255, 255, 0.02);
     backdrop-filter: blur(15px);
     -webkit-backdrop-filter: blur(15px);
     border-radius: 7px;
@@ -57,8 +49,10 @@ form {
 .input5 input {
     width: 48%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    border: 0.5px solid white;
+    padding-left: 10px;
+    border-radius: 5px 0px 5px 0px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 0.5px solid rgba(255, 255, 255, 0.5);
 }
 
 .input3,
@@ -71,8 +65,10 @@ form {
 .input4 input {
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    border: 0.5px solid white;
+    padding-left: 10px;
+    border-radius: 5px 0px 5px 0px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 0.5px solid rgba(255, 255, 255, 0.5);
 }
 
 .inputComment  {
@@ -83,8 +79,10 @@ form {
 .inputComment input {
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    border: 0.5px solid white;
+    padding-left: 10px;
+    border-radius: 10px 0px 10px 0px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 0.5px solid rgba(255, 255, 255, 0.5);
 }
 
 .input7 {
@@ -98,8 +96,9 @@ form {
 .input7 input {
     width: 45%;
     height: 90%;
+    border-radius: 0px 5px 0px 5px;
     background-color: rgba(255, 255, 255, 0.2);
-    border: 0.5px solid white;
+    border: 0.5px solid rgba(255, 255, 255, 0.5);
 }
 
 .containerP {
@@ -126,6 +125,107 @@ form {
     opacity: 0.7;
 }
 
-::placeholder {
-    padding-left: 10px;
+/* .name::before {
+    content: '';
+    position: absolute;
+    z-index: 2;
+    transform: rotate(90deg);
+    top: 1.7%;
+    left: 36.1%;
+    width: 4.4%;
+    height: 15.1%;
+    border-top: 0.2px solid white;
+    border-left: 0.2px solid white;
+    background-color: red;
 }
+
+.input1::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    transform: rotate(270deg);
+    top: 4.1%;
+    left: 17.7%;
+    width: 4.4%;
+    height: 15.1%;
+    border-top: 0.2px solid white;
+    border-left: 0.2px solid white;
+}
+
+.input2::before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    transform: rotate(90deg);
+    top: 1.7%;
+    left: 77.8%;
+    width: 4.4%;
+    height: 15.1%;
+    border-top: 0.2px solid white;
+    border-left: 0.2px solid white;
+}
+
+.input2::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    transform: rotate(270deg);
+    top: 4.1%;
+    left: 59.3%;
+    width: 4.4%;
+    height: 15.1%;
+    border-top: 0.2px solid white;
+    border-left: 0.2px solid white;
+}
+
+.input3::before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    transform: rotate(90deg);
+    top: 13.3%;
+    left: 36.1%;
+    width: 4.4%;
+    height: 15.1%;
+    border-top: 0.2px solid white;
+    border-left: 0.2px solid white;
+}
+
+.input3::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    transform: rotate(270deg);
+    top: 15.7%;
+    left: 17.7%;
+    width: 4.4%;
+    height: 15.1%;
+    border-top: 0.2px solid white;
+    border-left: 0.2px solid white;
+}
+
+.input4::before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    transform: rotate(90deg);
+    top: 13.3%;
+    left: 77.8%;
+    width: 4.4%;
+    height: 15.1%;
+    border-top: 0.2px solid white;
+    border-left: 0.2px solid white;
+}
+
+.input4::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    transform: rotate(270deg);
+    top: 15.7%;
+    left: 59.3%;
+    width: 4.4%;
+    height: 15.1%;
+    border-top: 0.2px solid white;
+    border-left: 0.2px solid white;
+} */

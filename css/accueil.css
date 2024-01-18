@@ -1,3 +1,5 @@
+/* ACCUEIL */
+
 #accueilBackground {
     width: 100vw;
     height: 100vh;
@@ -10,24 +12,31 @@
 }
 
 .positionH1 {
-    width: 50%;
+    width: 100%;
     height: 85%;
     font-size: 2em;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .alien {
-    width: 50%;
+    font-family: 'Orbitron', sans-serif; 
+    font-size: 0.9em;
+    letter-spacing: 35px;
+    width: 45%;
     height: 50%;
     display: flex;
+    justify-content: center;
     align-items: center;
 }
 
 .isolation {
-    width: 100%;
+    font-family: 'Orbitron', sans-serif; 
+    font-size: 0.9em;
+    letter-spacing: 35px;
+    width: 70%;
     height: 50%;
     display: flex;
     justify-content: flex-end;
@@ -73,4 +82,281 @@ h1 {
     position: absolute;
     left: 1250px;
     top: 306px;
+}
+
+/* CONTACT */
+
+#contactBackground {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/img/contact-ripley.png);
+    background-size:cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerForm {
+    width: 50%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+}
+
+.positionForm {
+    position: relative;
+    left: 10%;
+    top: -5%;
+    width: 30%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.2px solid white;
+    background-color: rgba(255, 255, 255, 0.02);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border-radius: 7px;
+}
+
+form {
+    width: 80%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.input1,
+.input2,
+.input5 {
+    width: 100%;
+    height: 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input1 input,
+.input2 input,
+.input5 input {
+    width: 48%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 0.5px solid rgba(255, 255, 255, 0.5);
+}
+
+.input3,
+.input4 {
+    width: 100%;
+    height: 7%;
+}
+
+.input3 input,
+.input4 input {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 0.5px solid rgba(255, 255, 255, 0.5);
+}
+
+.inputComment  {
+    width: 100%;
+    height: 15%;
+}
+
+.inputComment input {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 0.5px solid rgba(255, 255, 255, 0.5);
+}
+
+.input7 {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input7 input {
+    width: 45%;
+    height: 90%;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 0.5px solid rgba(255, 255, 255, 0.5);
+}
+
+.containerP {
+    width: 100%;
+    height: 5%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* background-color: green; */
+}
+
+.positionP {
+    /* background-color: blue; */
+    width: 50%;
+    height: 70%;
+    margin-right: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.positionP p {
+    font-size: 0.7em;
+    opacity: 0.7;
+}
+
+::placeholder {
+    padding-left: 10px;
+}
+
+/* BOUTIQUE */
+
+
+#boutiqueBackground {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/img/station-spatial-green.jpeg);
+    background-size:cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boutique {
+    border-top-right-radius: 7px;
+}
+
+.notification {
+    position: absolute;
+    width: 2%;
+    height: 2%;
+    clip-path: circle(7px);
+    top: 9.3%;
+    left: 91.2%;
+    background-color: red;
+}
+
+.panierGlobal {
+    position: relative;
+    top: -15%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* align-items: center; */
+    /* background-color:red; */
+}
+
+.selectionJeux {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: aqua; */
+}
+
+.backJeux {
+    width: 30%;
+    height: 30%;
+}
+
+.backJeuxCote {
+    width: 25%;
+    height: 25%;
+}
+
+.backJeuxCote,
+.backJeux {
+    border-radius: 5px;
+    border: 0.5px solid white;
+    background-color: rgba(255, 255, 255, 0.02);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+}
+
+.backJeuxCote,
+.backJeux {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.selectionJeux article {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.selectionJeux article img {
+    width: 90%;
+    height: 90%;
+    object-fit: contain;
+}
+
+.panier {
+    position: absolute;
+    z-index: 2;
+    top: 2%;
+    left: 51%;
+    width: 48%;
+    height: 95%;
+    display: none;
+    flex-direction: column;
+    border-radius: 10px;
+    border: 0.2px solid white;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+}
+
+.h1 {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banniere {
+    width: 100%;
+    height: 5%;
+    display: flex;
+    align-items: center;
+    border: 0.2px solid white;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+}
+
+.banniere p {
+    font-size: 0.7em;
+}
+
+.ripley {
+    position: relative;
+    top: -65%;
+    left: 50%;
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.ripley img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
