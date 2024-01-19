@@ -1,4 +1,4 @@
-/* ACCUEIL */
+/* ACCUEIL -------------------------------------------------------------- */
 
 #accueilBackground {
     width: 100vw;
@@ -22,7 +22,6 @@
 }
 
 .alien {
-    font-family: 'Orbitron', sans-serif; 
     font-size: 0.9em;
     letter-spacing: 35px;
     width: 45%;
@@ -33,7 +32,6 @@
 }
 
 .isolation {
-    font-family: 'Orbitron', sans-serif; 
     font-size: 0.9em;
     letter-spacing: 35px;
     width: 70%;
@@ -84,7 +82,55 @@ h1 {
     top: 306px;
 }
 
-/* CONTACT */
+
+
+main {
+    width: 100%;
+    height: 200%;
+    display: flex;
+    justify-content: center;
+    /* background-color: red; */
+}
+
+.mainAccueil {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.stationSpatialBlue,
+.alienIsolationAffiche,
+.couloirAlienRed {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.stationSpatialBlue h2,
+.alienIsolationAffiche h2,
+.couloirAlienRed h2 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stationSpatialBlue img,
+.alienIsolationAffiche img,
+.couloirAlienRed img {
+    width: 50%;
+    height: 100%;
+    object-fit: contain;
+    /* border: 0.5px solid white; */
+    /* background-color: blue; */
+}
+
+/* CONTACT -------------------------------------------------------------- */
 
 #contactBackground {
     width: 100vw;
@@ -98,27 +144,18 @@ h1 {
 }
 
 .containerForm {
-    width: 50%;
-    height: 80%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* background-color: red; */
-}
-
-.positionForm {
     position: relative;
     left: 10%;
     top: -5%;
-    width: 30%;
-    height: 80%;
+    /* width: 30%; */
+    width: clamp(300px, 35%, 35%);
+    height: clamp(500px, 80%,80%);
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 0.2px solid white;
-    background-color: rgba(255, 255, 255, 0.02);
-    backdrop-filter: blur(15px);
-    -webkit-backdrop-filter: blur(15px);
+    border: 1px solid white;
+    backdrop-filter: blur(10%);
+    -webkit-backdrop-filter: blur(10px);
     border-radius: 7px;
 }
 
@@ -145,8 +182,19 @@ form {
 .input5 input {
     width: 48%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.3);
+    padding-left: 10px;
+    border-radius: 5px 0px 5px 0px;
+    background-color: rgba(0, 0, 0, 0.5);
     border: 0.5px solid rgba(255, 255, 255, 0.5);
+}
+
+.input1 input:hover,
+.input2 input:hover,
+.input5 input:hover,
+.input3 input:hover,
+.input4 input:hover,
+.inputComment input:hover {
+    border: 0.5px solid white;
 }
 
 .input3,
@@ -159,7 +207,9 @@ form {
 .input4 input {
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.3);
+    padding-left: 10px;
+    border-radius: 5px 0px 5px 0px;
+    background-color: rgba(0, 0, 0, 0.5);
     border: 0.5px solid rgba(255, 255, 255, 0.5);
 }
 
@@ -171,7 +221,9 @@ form {
 .inputComment input {
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.3);
+    padding-left: 10px;
+    border-radius: 10px 0px 10px 0px;
+    background-color: rgba(0, 0, 0, 0.5);
     border: 0.5px solid rgba(255, 255, 255, 0.5);
 }
 
@@ -186,8 +238,16 @@ form {
 .input7 input {
     width: 45%;
     height: 90%;
-    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 0px 5px 0px 5px;
+    background-color: transparent;
+    backdrop-filter: blur(100%);
+    -webkit-backdrop-filter: blur(100px);
     border: 0.5px solid rgba(255, 255, 255, 0.5);
+}
+
+.input7 input:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 0.5px solid white;
 }
 
 .containerP {
@@ -214,12 +274,112 @@ form {
     opacity: 0.7;
 }
 
-::placeholder {
-    padding-left: 10px;
+/* .name::before {
+    content: '';
+    position: absolute;
+    z-index: 2;
+    transform: rotate(90deg);
+    top: 1.7%;
+    left: 36.1%;
+    width: 4.4%;
+    height: 15.1%;
+    border-top: 0.2px solid white;
+    border-left: 0.2px solid white;
+    background-color: red;
 }
 
-/* BOUTIQUE */
+.input1::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    transform: rotate(270deg);
+    top: 4.1%;
+    left: 17.7%;
+    width: 4.4%;
+    height: 15.1%;
+    border-top: 0.2px solid white;
+    border-left: 0.2px solid white;
+}
 
+.input2::before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    transform: rotate(90deg);
+    top: 1.7%;
+    left: 77.8%;
+    width: 4.4%;
+    height: 15.1%;
+    border-top: 0.2px solid white;
+    border-left: 0.2px solid white;
+}
+
+.input2::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    transform: rotate(270deg);
+    top: 4.1%;
+    left: 59.3%;
+    width: 4.4%;
+    height: 15.1%;
+    border-top: 0.2px solid white;
+    border-left: 0.2px solid white;
+}
+
+.input3::before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    transform: rotate(90deg);
+    top: 13.3%;
+    left: 36.1%;
+    width: 4.4%;
+    height: 15.1%;
+    border-top: 0.2px solid white;
+    border-left: 0.2px solid white;
+}
+
+.input3::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    transform: rotate(270deg);
+    top: 15.7%;
+    left: 17.7%;
+    width: 4.4%;
+    height: 15.1%;
+    border-top: 0.2px solid white;
+    border-left: 0.2px solid white;
+}
+
+.input4::before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    transform: rotate(90deg);
+    top: 13.3%;
+    left: 77.8%;
+    width: 4.4%;
+    height: 15.1%;
+    border-top: 0.2px solid white;
+    border-left: 0.2px solid white;
+}
+
+.input4::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    transform: rotate(270deg);
+    top: 15.7%;
+    left: 59.3%;
+    width: 4.4%;
+    height: 15.1%;
+    border-top: 0.2px solid white;
+    border-left: 0.2px solid white;
+} */
+
+/* BOUTIQUE -------------------------------------------------------------- */
 
 #boutiqueBackground {
     width: 100vw;
@@ -308,11 +468,11 @@ form {
 .panier {
     position: absolute;
     z-index: 2;
-    top: 2%;
-    left: 51%;
-    width: 48%;
-    height: 95%;
-    display: none;
+    top: 4%;
+    left: 53%;
+    width: 45%;
+    height: 90%;
+    display: flex;
     flex-direction: column;
     border-radius: 10px;
     border: 0.2px solid white;
