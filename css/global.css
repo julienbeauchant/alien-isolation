@@ -53,10 +53,6 @@ nav ul li:hover {
     border: 0.5px solid white;
 }
 
-::placeholder {
-    font-family: 'Orbitron', sans-serif; 
-}
-
 
 /* nav ul .accueil::before {
     left: 61.2%;

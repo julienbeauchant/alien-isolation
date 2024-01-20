@@ -6,6 +6,7 @@
     /* background-image: url(/img/planete.jpg); */
     background: linear-gradient(to bottom, transparent, 85%, rgb(0, 0, 0)),
     url("/img/planete.jpg");
+    background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -82,52 +83,414 @@ h1 {
     top: 306px;
 }
 
-
-
 main {
     width: 100%;
-    height: 200%;
+    height: 550%;
     display: flex;
-    justify-content: center;
+    align-items: center;
     /* background-color: red; */
 }
 
 .mainAccueil {
-    width: 90%;
+    width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
+    /* background-color: green; */
 }
 
-.stationSpatialBlue,
-.alienIsolationAffiche,
-.couloirAlienRed {
-    width: 100%;
-    height: 50%;
+.embarquez {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top, transparent, 95%, rgb(0, 0, 0)),
+    url("/img/station-spatial-blue.jpg");
+    background-size: cover;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+}
+
+/* IDENTITÉ -------------------------------------------------------------- */
+
+/* StationSpatialBlue -------------------------------------------------------------- */
+
+.embarquezStationSpatialBlueCercle {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    clip-path: circle(7px);
+    left: 900px;
+    top: 1350px;
+    background-color: white;
+}
+
+.embarquezStationSpatialBlueLine1 {
+    position: absolute;
+    width: 46px;
+    height: 0.2%;
+    left: 920px;
+    top: 1325px;
+    transform: rotate(-45deg);
+    border-radius: 2px;
+    background-color: white;
+}
+
+.embarquezStationSpatialBlueLine2 {
+    position: absolute;
+    width: 150px;
+    height: 0.2%;
+    left: 958px;
+    top: 1309px;
+    border-radius: 2px;
+    background-color: white;
+}
+
+.embarquezStationSpatialBlueP {
+    font-size: 12px;
+    position: absolute;
+    left: 1150px;
+    top: 1302px;
+}
+
+/* Ripley -------------------------------------------------------------- */
+
+.incarnezRipleyCercle {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    clip-path: circle(7px);
+    left: 600px;
+    top: 2300px;
+    background-color: white;
+}
+
+.incarnezRipleyLine1 {
+    position: absolute;
+    width: 46px;
+    height: 0.2%;
+    left: 552px;
+    top: 2275px;
+    transform: rotate(45deg);
+    border-radius: 2px;
+    background-color: white;
+}
+
+.incarnezRipleyLine2 {
+    position: absolute;
+    width: 150px;
+    height: 0.2%;
+    left: 410px;
+    top: 2259px;
+    border-radius: 2px;
+    background-color: white;
+}
+
+.incarnezRipleyP {
+    font-size: 12px;
+    position: absolute;
+    left: 280px;
+    top: 2252px;
+}
+
+/* Exploration -------------------------------------------------------------- */
+
+.explorezExplorationCercle {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    clip-path: circle(7px);
+    left: 900px;
+    top: 3255px;
+    background-color: white;
+}
+
+.explorezExplorationLine1 {
+    position: absolute;
+    width: 46px;
+    height: 0.2%;
+    left: 920px;
+    top: 3232px;
+    transform: rotate(-45deg);
+    border-radius: 2px;
+    background-color: white;
+}
+
+.explorezExplorationLine2 {
+    position: absolute;
+    width: 150px;
+    height: 0.2%;
+    left: 958px;
+    top: 3216px;
+    border-radius: 2px;
+    background-color: white;
+}
+
+.explorezExplorationP {
+    font-size: 12px;
+    position: absolute;
+    left: 1150px;
+    top: 3209px;
+}
+
+/* AlienIsolationAffiche -------------------------------------------------------------- */
+
+.seCacherAlienIsolationAfficheCercle {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    clip-path: circle(7px);
+    left: 600px;
+    top: 4200px;
+    background-color: white;
+}
+
+.seCacherAlienIsolationAfficheLine1 {
+    position: absolute;
+    width: 46px;
+    height: 0.2%;
+    left: 552px;
+    top: 4178px;
+    transform: rotate(45deg);
+    border-radius: 2px;
+    background-color: white;
+}
+
+.seCacherAlienIsolationAfficheLine2 {
+    position: absolute;
+    width: 150px;
+    height: 0.2%;
+    left: 410px;
+    top: 4162px;
+    border-radius: 2px;
+    background-color: white;
+}
+
+.seCacherAlienIsolationAfficheP {
+    font-size: 12px;
+    position: absolute;
+    left: 280px;
+    top: 4155px;
+}
+
+/* CouloirAlienRed -------------------------------------------------------------- */
+
+.affrontezCouloirAlienRedCercle {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    clip-path: circle(7px);
+    left: 900px;
+    top: 5150px;
+    background-color: white;
+}
+
+.affrontezCouloirAlienRedLine1 {
+    position: absolute;
+    width: 46px;
+    height: 0.2%;
+    left: 920px;
+    top: 5127px;
+    transform: rotate(-45deg);
+    border-radius: 2px;
+    background-color: white;
+}
+
+.affrontezCouloirAlienRedLine2 {
+    position: absolute;
+    width: 150px;
+    height: 0.2%;
+    left: 958px;
+    top: 5111px;
+    border-radius: 2px;
+    background-color: white;
+}
+
+.affrontezCouloirAlienRedP {
+    font-size: 12px;
+    position: absolute;
+    left: 1150px;
+    top: 5103px;
+}
+
+/* FIN IDENTITÉ -------------------------------------------------------------- */
+
+
+.embarquezPosition,
+.explorezPosition,
+.affrontezPosition {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.incarnezPosition,
+.seCacherPosition {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.embarquezPositionCenter,
+.incarnezPositionCenter,
+.explorezPositionCenter,
+.seCacherPositionCenter,
+.affrontezPositionCenter  {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 
-.stationSpatialBlue h2,
-.alienIsolationAffiche h2,
-.couloirAlienRed h2 {
-    width: 50%;
+h2 {
+    position: relative;
+    top: -10%;
+    font-size: 2em;
+}
+
+.embarquez img,
+.explorez img,
+.affrontez img,
+.incarnez img,
+.seCacher img {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    border: 0.5px solid white;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.incarnez {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top, transparent, 95%, rgb(0, 0, 0)),
+    url("/img/ripley.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.explorez {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top, transparent, 95%, rgb(0, 0, 0)),
+    url("/img/exploration.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.seCacher {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top, transparent, 95%, rgb(0, 0, 0)),
+    url("/img/alien-isolation-affiche.webp");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.affrontez {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top, transparent, 95%, rgb(0, 0, 0)),
+    url("/img/couloir-alien-red.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+/* .embarquez,
+.incarnez,
+.explorez,
+.seCacher,
+.affrontez {
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+} */
+
+
+.footer {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    border: 0.5px solid white;
+    border-radius: 5px;
+}
+
+.footerImg {
+    width: 10%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.stationSpatialBlue img,
-.alienIsolationAffiche img,
-.couloirAlienRed img {
+.footerImg img {
+    width: 100%;
+    height: 75%;
+    object-fit: contain;
+    /* background-color: red; */
+}
+
+.footerNav {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.footerNav ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.footerNav ul li {
+    width: 25%;
+    height: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.5px solid rgba(255, 255, 255, 0.5);
+    border-radius: 0px 5px 0px 5px;
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    font-size: 0.5em
+}
+
+.logos {
+    width: 20%;
+    height: 100%;
+    display: flex;
+}
+
+.logos a {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.logos img {
     width: 50%;
     height: 100%;
     object-fit: contain;
-    /* border: 0.5px solid white; */
-    /* background-color: blue; */
 }
 
 /* CONTACT -------------------------------------------------------------- */
@@ -138,7 +501,7 @@ main {
     background-image: url(/img/contact-ripley.png);
     background-size:cover;
     background-position: center;
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
 }
@@ -248,6 +611,11 @@ form {
 .input7 input:hover {
     background-color: rgba(255, 255, 255, 0.05);
     border: 0.5px solid white;
+}
+
+.input7 input,
+::placeholder {
+    font-family: 'Orbitron', sans-serif; 
 }
 
 .containerP {
@@ -387,7 +755,7 @@ form {
     background-image: url(/img/station-spatial-green.jpeg);
     background-size:cover;
     background-position: center;
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
 }
