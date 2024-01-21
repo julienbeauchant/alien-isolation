@@ -1,37 +1,192 @@
-@media screen and ( max-width: 1310px) {
-    .cercle {
-        display: none;
+@media screen and ( max-width: 1280px) {
+    nav ul {
+        width: 45%;
     }
-    
-    .line1 {
-        display: none;
-    }
-    
-    .line2 {
-        display: none;
-    }
-    
-    .accueilP {
-        font-size: 12px;
-        position: absolute;
-        left: 900px;
-        top: 300px;
+
+    .embarquezPositionCenter,
+    .incarnezPositionCenter,
+    .explorezPositionCenter,
+    .seCacherPositionCenter,
+    .affrontezPositionCenter  {
+        width: 70%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+}
+
+@media screen and ( max-width: 1315px) {
+    .title {
+        width: 70%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        letter-spacing: 35px;
     }
 }
 
-@media screen and ( max-width: 1220px) {
+@media screen and ( max-width: 1180px) {
+    nav ul {
+        width: 40%;
+    }
+}
+
+@media screen and ( max-width: 1145px) {
+    .title {
+        width: 80%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        letter-spacing: 35px;
+    }
+}
+
+@media screen and ( max-width: 1100px) {
+    nav ul {
+        width: 35%;
+    }
+}
+
+@media screen and ( max-width: 1025px) {
+    nav ul {
+        display: none;
+    }
+
+    .title {
+        width: 105%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        letter-spacing: 35px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+}
+
+@media screen and ( max-width: 930px) {
     h1 {
         font-size: 1.5em;
     }
 
-    nav ul {
-        width: 40%;
+    .embarquezPositionCenter,
+    .incarnezPositionCenter,
+    .explorezPositionCenter,
+    .seCacherPositionCenter,
+    .affrontezPositionCenter  {
+        width: 90%;
         height: 100%;
-    }
-
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
 }
 
-@media screen and ( max-width: 1080px) {
+@media screen and ( max-width: 700px) {
+    h1 {
+        font-size: 1em;
+    }
+    #accueilBackground {
+        width: 100vw;
+        height: 50vh;
+        /* background-image: url(/img/planete.jpg); */
+        background: linear-gradient(to bottom, transparent, 85%, rgb(0, 0, 0)),
+        url("/img/planete.jpg");
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .contour {
+        width: 90%;
+        height: 90%;
+        border: 1px solid white;
+        border-radius: 10px;
+    }
+    .embarquez {
+        width: 100vw;
+        height: 100vh;
+        background: linear-gradient(to top, transparent, 95%, rgb(0, 0, 0)),
+        url("/img/station-spatial-blue.jpg");
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .incarnez {
+        width: 100vw;
+        height: 100vh;
+        background: linear-gradient(to top, transparent, 95%, rgb(0, 0, 0)),
+        url("/img/ripley.jpg");
+        background-size: cover;
+        background-position: right;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .explorez {
+        width: 100vw;
+        height: 100vh;
+        background: linear-gradient(to top, transparent, 95%, rgb(0, 0, 0)),
+        url("/img/exploration.jpg");
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .seCacher {
+        width: 100vw;
+        height: 100vh;
+        background: linear-gradient(to top, transparent, 95%, rgb(0, 0, 0)),
+        url("/img/alien-isolation-affiche.webp");
+        background-size: cover;
+        background-position: right;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .affrontez {
+        width: 100vw;
+        height: 100vh;
+        background: linear-gradient(to top, transparent, 95%, rgb(0, 0, 0)),
+        url("/img/couloir-alien-red.jpg");
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+    }
+
+    .embarquezPositionCenter,
+    .incarnezPositionCenter,
+    .explorezPositionCenter,
+    .seCacherPositionCenter,
+    .affrontezPositionCenter  {
+        width: 90%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+}
+
+@media screen and ( max-width: 580) {
+    h1 {
+        font-size: 4em;
+    }
+}
+
+
+/* @media screen and ( max-width: 1080px) {
     .accueilP {
         display: none;
     }
@@ -172,4 +327,4 @@
         font-size: 1.5em;
         display: flex;
     }
-}
+} */

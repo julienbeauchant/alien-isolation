@@ -6,7 +6,7 @@
     background-image: url(/img/contact-ripley.png);
     background-size:cover;
     background-position: center;
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
 }
@@ -144,108 +144,3 @@ form {
     font-size: 0.5em;
     opacity: 0.7;
 }
-
-/* .name::before {
-    content: '';
-    position: absolute;
-    z-index: 2;
-    transform: rotate(90deg);
-    top: 1.7%;
-    left: 36.1%;
-    width: 4.4%;
-    height: 15.1%;
-    border-top: 0.2px solid white;
-    border-left: 0.2px solid white;
-    background-color: red;
-}
-
-.input1::after {
-    content: '';
-    position: absolute;
-    z-index: -1;
-    transform: rotate(270deg);
-    top: 4.1%;
-    left: 17.7%;
-    width: 4.4%;
-    height: 15.1%;
-    border-top: 0.2px solid white;
-    border-left: 0.2px solid white;
-}
-
-.input2::before {
-    content: '';
-    position: absolute;
-    z-index: -1;
-    transform: rotate(90deg);
-    top: 1.7%;
-    left: 77.8%;
-    width: 4.4%;
-    height: 15.1%;
-    border-top: 0.2px solid white;
-    border-left: 0.2px solid white;
-}
-
-.input2::after {
-    content: '';
-    position: absolute;
-    z-index: -1;
-    transform: rotate(270deg);
-    top: 4.1%;
-    left: 59.3%;
-    width: 4.4%;
-    height: 15.1%;
-    border-top: 0.2px solid white;
-    border-left: 0.2px solid white;
-}
-
-.input3::before {
-    content: '';
-    position: absolute;
-    z-index: -1;
-    transform: rotate(90deg);
-    top: 13.3%;
-    left: 36.1%;
-    width: 4.4%;
-    height: 15.1%;
-    border-top: 0.2px solid white;
-    border-left: 0.2px solid white;
-}
-
-.input3::after {
-    content: '';
-    position: absolute;
-    z-index: -1;
-    transform: rotate(270deg);
-    top: 15.7%;
-    left: 17.7%;
-    width: 4.4%;
-    height: 15.1%;
-    border-top: 0.2px solid white;
-    border-left: 0.2px solid white;
-}
-
-.input4::before {
-    content: '';
-    position: absolute;
-    z-index: -1;
-    transform: rotate(90deg);
-    top: 13.3%;
-    left: 77.8%;
-    width: 4.4%;
-    height: 15.1%;
-    border-top: 0.2px solid white;
-    border-left: 0.2px solid white;
-}
-
-.input4::after {
-    content: '';
-    position: absolute;
-    z-index: -1;
-    transform: rotate(270deg);
-    top: 15.7%;
-    left: 59.3%;
-    width: 4.4%;
-    height: 15.1%;
-    border-top: 0.2px solid white;
-    border-left: 0.2px solid white;
-} */

@@ -85,3 +85,78 @@ class TextScramble {
   };
   
   next();
+
+
+
+// NAVBAR --------------------------------------------------------------
+
+const clickAccueil = document.querySelectorAll(`.accueil`)
+const accueilBackground = document.querySelector(`#accueilBackground`)
+const main = document.querySelector(`main`)
+const footer = document.querySelector(`.footer`)
+
+// clickAccueil.addEventListener(`click`, () => {
+//   accueilBackground.style.display = 'flex';
+//   main.style.display = 'flex';
+//   footer.style.display = 'flex';
+//   contactBackground.style.display = 'none';
+//   boutiqueBackground.style.display = 'none';
+//   console.log('Clic sur Accueil');
+// })
+
+clickAccueil.forEach(element => {
+  element.addEventListener('click', () => {
+    accueilBackground.style.display = 'flex';
+    main.style.display = 'flex';
+    footer.style.display = 'flex';
+    contactBackground.style.display = 'none';
+    boutiqueBackground.style.display = 'none';
+    console.log('Clic sur Accueil');
+  });
+});
+
+const clickContact = document.querySelectorAll(`.contact`)
+const contactBackground = document.querySelector(`#contactBackground`)
+
+// clickContact.addEventListener(`click`, () => {
+//   contactBackground.style.display = 'flex';
+//   accueilBackground.style.display = 'none';
+//   main.style.display = 'none';
+//   footer.style.display = 'none';
+//   boutiqueBackground.style.display = 'none';
+//   console.log('Clic sur Contact');
+// })
+
+clickContact.forEach(element => {
+  element.addEventListener('click', () => {
+  contactBackground.style.display = 'flex';
+  accueilBackground.style.display = 'none';
+  main.style.display = 'none';
+  footer.style.display = 'none';
+  boutiqueBackground.style.display = 'none';
+  console.log('Clic sur Contact');
+  });
+});
+
+const clickBoutique = document.querySelectorAll(`.boutique`)
+const boutiqueBackground = document.querySelector(`#boutiqueBackground`)
+
+// clickBoutique.addEventListener(`click`, () => {
+//   boutiqueBackground.style.display = 'flex';
+//   contactBackground.style.display = 'none';
+//   accueilBackground.style.display = 'none';
+//   main.style.display = 'none';
+//   footer.style.display = 'none';
+//   console.log('Clic sur Boutique');
+// })
+
+clickBoutique.forEach(element => {
+  element.addEventListener('click', () => {
+  boutiqueBackground.style.display = 'flex';
+  contactBackground.style.display = 'none';
+  accueilBackground.style.display = 'none';
+  main.style.display = 'none';
+  footer.style.display = 'none';
+  console.log('Clic sur Boutique');
+  });
+});
