@@ -15,9 +15,8 @@
     position: relative;
     left: 10%;
     top: -5%;
-    /* width: 30%; */
-    width: clamp(300px, 35%, 35%);
-    height: clamp(500px, 80%,80%);
+    width: 30%;
+    height: 80%;
     display: flex;
     justify-content: center;
     align-items: center;

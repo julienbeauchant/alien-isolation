@@ -10,7 +10,10 @@
     <link rel="stylesheet" href="/css/global.css">
     <link rel="stylesheet" href="css/identite.css">
     <link rel="stylesheet" href="css/modal.css">
-    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="responsive/responsive.css">
+    <link rel="stylesheet" href="responsive/responsive-accueil.css">
+    <link rel="stylesheet" href="responsive/responsive-boutique.css">
+    <link rel="stylesheet" href="responsive/responsive-contact.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600&display=swap" rel="stylesheet">
@@ -170,33 +173,78 @@
                     <li class="accueil">Accueil</li>
                     <li class="contact">Contact</li>
                     <li class="boutique">Boutique</li>
-                    <div class="notification"></div>
                 </ul>
             </nav>
             <section class="panierGlobal">
                 <div class="selectionJeux">
-                    <div class="backJeuxCote">
-                        <article>
-                            <img src="img/alien-isolation-ps3.jpg" alt="">
-                        </article>
-                    </div>
-                    <div class="backJeux">
-                        <article>
-                            <img id="center" src="img/alien-isolation-ps4.jpg" alt="">
-                        </article>
-                    </div>
-                    <div class="backJeuxCote">
-                        <article>
-                            <img src="img/alien-isolation-xbox.webp" alt="">
-                        </article>
-                    </div>
+                    <article class="pc">
+                        <img src="img/pc.jpg" alt="">
+                        <div class="pcAchat">
+                            <h5>prix : 25$</h5>
+                            <div class="ajouterPc">
+                                <p>ajouter</p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="ps4">
+                        <img src="img/ps4.jpg" alt="">
+                        <div class="ps4Achat">
+                            <h5>prix : 35$</h5>
+                            <div class="ajouterPs4">
+                                <p>ajouter</p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="xbox">
+                        <img src="img/xbox.jpg" alt="">
+                        <div class="xboxAchat">
+                            <h5>prix : 15$</h5>
+                            <div class="ajouterXbox">
+                                <p>ajouter</p>
+                            </div>
+                        </div>
+                    </article>
                 </div>
                 <div class="panier">
-                    <div class="h1">
-                        <h1>Récapitulatif de votre commande</h1>
+                    <section class="croix">
+                        <div class="positionCroix">
+                            <img src="img/croix.png" alt="">
+                        </div>
+                    </section>
+                    <div class="h4">
+                        <h4>Récapitulatif de votre commande</h4>
                     </div>
-                    <marquee direction="left" class="banniere">un cadeau offert lors de votre achat !</marquee>
-                </div>
+                    <marquee direction="left" class="banniere">Obtenez un cadeau lors de votre achat en ligne !
+                    </marquee>
+                    <div class="selectionJeuxPanier">
+                        <article class="pcPanier">
+                            <img src="img/pc.jpg" alt="">
+                            <div class="pcAchatPanier">
+                                <div class="ajouterPcPanier">
+                                    <p></p>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="ps4Panier">
+                            <img src="img/ps4.jpg" alt="">
+                            <div class="ps4AchatPanier">
+                                <div class="ajouterPs4Panier">
+                                    <p></p>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="xboxPanier">
+                            <img src="img/xbox.jpg" alt="">
+                            <div class="xboxAchatPanier">
+                                <div class="ajouterXboxPanier">
+                                    <p></p>
+                                </div>
+                            </div>
+                        </article>
+                        <section class="valider">
+                            <p>Valider</p>
+                        </section>
+                    </div>
             </section>
             <div class="ripley">
                 <img src="img/ripley-combinaison.png" alt="">

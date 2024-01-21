@@ -15,71 +15,80 @@
     border-top-right-radius: 7px;
 }
 
-.notification {
-    position: absolute;
-    display: none;
-    width: 2%;
-    height: 2%;
-    clip-path: circle(7px);
-    top: 9.3%;
-    left: 91.2%;
-    background-color: red;
-}
-
 .panierGlobal {
     width: 100%;
     height: 85%;
     display: flex;
     align-items: center;
+    /* background-color: red; */
 }
 
 .selectionJeux {
     width: 50%;
     height: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
-    align-items: center;
-    /* background-color: aqua; */
-}
-
-.backJeux {
-    width: 30%;
-    height: 30%;
-}
-
-.backJeuxCote {
-    width: 25%;
-    height: 25%;
-}
-
-.backJeuxCote,
-.backJeux {
-    border-radius: 5px;
-    border: 0.5px solid white;
-    background-color: rgba(255, 255, 255, 0.02);
-    backdrop-filter: blur(15px);
-    -webkit-backdrop-filter: blur(15px);
-}
-
-.backJeuxCote,
-.backJeux {
-    display: flex;
-    justify-content: center;
     align-items: center;
 }
 
 .selectionJeux article {
     width: 90%;
-    height: 90%;
+    height: 25%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.selectionJeux article img {
+    width: 45%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.pcAchat,
+.ps4Achat,
+.xboxAchat {
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h5 {
+    width: 100%;
+    height: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.selectionJeux article img {
-    width: 90%;
-    height: 90%;
-    object-fit: contain;
+.ajouterPc P,
+.ajouterPs4 p,
+.ajouterXbox p {
+    font-size: 0.8em;
+}
+
+.ajouterPc,
+.ajouterPs4,
+.ajouterXbox{
+    width: 70%;
+    height: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.5px solid white;
+    border-radius: 5px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.ajouterPc:hover,
+.ajouterPs4:hover,
+.ajouterXbox:hover {
+    background-color: rgba(255, 255, 255, 0.07);
+    border: 1px solid white;
 }
 
 .ripley {

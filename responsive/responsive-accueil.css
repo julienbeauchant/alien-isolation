@@ -1,22 +1,3 @@
-@media screen and ( max-width: 1280px) {
-    nav ul {
-        width: 45%;
-    }
-
-    .embarquezPositionCenter,
-    .incarnezPositionCenter,
-    .explorezPositionCenter,
-    .seCacherPositionCenter,
-    .affrontezPositionCenter  {
-        width: 70%;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-}
-}
-
 @media screen and ( max-width: 1315px) {
     .title {
         width: 70%;
@@ -26,12 +7,6 @@
         justify-content: center;
         align-items: center;
         letter-spacing: 35px;
-    }
-}
-
-@media screen and ( max-width: 1180px) {
-    nav ul {
-        width: 40%;
     }
 }
 
@@ -45,19 +20,22 @@
         align-items: center;
         letter-spacing: 35px;
     }
-}
 
-@media screen and ( max-width: 1100px) {
-    nav ul {
-        width: 35%;
-    }
+    .embarquezPositionCenter,
+    .incarnezPositionCenter,
+    .explorezPositionCenter,
+    .seCacherPositionCenter,
+    .affrontezPositionCenter  {
+        width: 70%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
 }
 
 @media screen and ( max-width: 1025px) {
-    nav ul {
-        display: none;
-    }
-
     .title {
         width: 105%;
         height: 100%;
@@ -67,13 +45,21 @@
         align-items: center;
         letter-spacing: 35px;
     }
-
     h1 {
         font-size: 1.5em;
     }
 }
 
-@media screen and ( max-width: 930px) {
+@media screen and ( max-width: 1000px) {
+    .title {
+        width: 105%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        letter-spacing: 35px;
+    }
     h1 {
         font-size: 1.5em;
     }
@@ -83,7 +69,7 @@
     .explorezPositionCenter,
     .seCacherPositionCenter,
     .affrontezPositionCenter  {
-        width: 90%;
+        width: 80%;
         height: 100%;
         display: flex;
         flex-direction: column;
@@ -92,6 +78,12 @@
 }
 }
 
+
+@media screen and ( max-width: 930px) {
+    h1 {
+        font-size: 1.5em;
+}
+}
 @media screen and ( max-width: 700px) {
     h1 {
         font-size: 1em;
@@ -179,152 +171,78 @@
 }
 }
 
-@media screen and ( max-width: 580) {
+@media screen and ( max-width: 580px) {
+    .title {
+        width: 110%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        letter-spacing: 30px;
+    }
+
     h1 {
-        font-size: 4em;
-    }
-}
-
-
-/* @media screen and ( max-width: 1080px) {
-    .accueilP {
-        display: none;
-    }
-}
-
-@media screen and ( max-width: 1040px) {
-
-    .cercle {
-        display: none;
-    }
-    
-    .line1 {
-        display: none;
-    }
-    
-    .line2 {
-        display: none;
-    }
-    
-    .accueilP {
-        display: none;
+        font-size: 0.5em;
     }
 
-    nav ul {
-        display: none;
-    }
-
-    .alien {
-        width: 50%;
-        height: 50%;
+    .embarquez {
+        width: 100vw;
+        height: 100vh;
+        background: none;
+        background-size: cover;
         display: flex;
         justify-content: center;
-        align-items: center;
-        font-size: 0.9em;
-        letter-spacing: 35px;
     }
     
-    .isolation {
-        width: 75%;
-        height: 50%;
-        display: flex;
-        justify-content: flex-end;
-        font-size: 0.9em;
-        letter-spacing: 35px;
-    }
-}
-
-@media screen and ( max-width: 930px) {
-    nav ul {
-        display: none;
-    }
-    .alien {
-        width: 60%;
-        height: 50%;
+    .incarnez {
+        width: 100vw;
+        height: 100vh;
+        background: none;
+        background-size: cover;
+        background-position: right;
         display: flex;
         justify-content: center;
-        align-items: center;
-        font-size: 0.9em;
-        letter-spacing: 35px;
     }
     
-    .isolation {
-        width: 85%;
-        height: 50%;
-        display: flex;
-        justify-content: flex-end;
-        font-size: 0.9em;
-        letter-spacing: 35px;
-    }
-
-    .cercle {
-        display: none;
-    }
-    
-    .line1 {
-        display: none;
-    }
-    
-    .line2 {
-        display: none;
-    }
-    
-    .accueilP {
-        display: none;
-    }
-
-.input7 input,
-::placeholder {
-    font-size: 0.7em;
-}
-
-}
-
-@media screen and ( max-width: 850px) {
-    .alien {
-        width: 60%;
-        height: 50%;
+    .explorez {
+        width: 100vw;
+        height: 100vh;
+        background: none;
+        background-size: cover;
         display: flex;
         justify-content: center;
-        align-items: center;
-        font-size: 0.9em;
-        letter-spacing: 35px;
     }
     
-    .isolation {
-        width: 95%;
-        height: 50%;
+    .seCacher {
+        width: 100vw;
+        height: 100vh;
+        background: none;
+        background-size: cover;
+        background-position: right;
         display: flex;
-        justify-content: flex-end;
-        font-size: 0.9em;
-        letter-spacing: 35px;
+        justify-content: center;
     }
-}
+    
+    .affrontez {
+        width: 100vw;
+        height: 100vh;
+        background: none;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+    }
 
-@media screen and ( max-width: 730px) {
-    .alien {
+    .embarquezPositionCenter,
+    .incarnezPositionCenter,
+    .explorezPositionCenter,
+    .seCacherPositionCenter,
+    .affrontezPositionCenter  {
         width: 100%;
-        height: 50%;
+        height: 100%;
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
-        font-size: 0.9em;
-        letter-spacing: 35px;
-    }
-    
-    .isolation {
-        width: 100%;
-        height: 50%;
-        display: flex;
-        justify-content: flex-end;
-        font-size: 0.9em;
-        letter-spacing: 35px;
-    }
 }
-
-@media screen and ( max-width: 700px) {
-    h1 {
-        font-size: 1.5em;
-        display: flex;
-    }
-} */
+}
