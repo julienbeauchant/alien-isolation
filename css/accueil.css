@@ -6,7 +6,7 @@
     /* background-image: url(/img/planete.jpg); */
     background: linear-gradient(to bottom, transparent, 85%, rgb(0, 0, 0)),
     url("/img/planete.jpg");
-    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,22 +23,22 @@
 }
 
 .alien {
-    font-size: 0.9em;
-    letter-spacing: 35px;
-    width: 45%;
+    width: 40%;
     height: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 0.9em;
+    letter-spacing: 35px;
 }
 
 .isolation {
-    font-size: 0.9em;
-    letter-spacing: 35px;
-    width: 70%;
+    width: 65%;
     height: 50%;
     display: flex;
     justify-content: flex-end;
+    font-size: 0.9em;
+    letter-spacing: 35px;
 }
 
 h1 {
@@ -50,7 +50,7 @@ h1 {
     width: 20px;
     height: 20px;
     clip-path: circle(7px);
-    left: 1105px;
+    left: 960px;
     top: 350px;
     background-color: white;
 }
@@ -59,7 +59,7 @@ h1 {
     position: absolute;
     width: 46px;
     height: 0.2%;
-    left: 1120px;
+    left: 975px;
     top: 330px;
     transform: rotate(-45deg);
     border-radius: 2px;
@@ -70,7 +70,7 @@ h1 {
     position: absolute;
     width: 75px;
     height: 0.2%;
-    left: 1158px;
+    left: 1013px;
     top: 314px;
     border-radius: 2px;
     background-color: white;
@@ -79,7 +79,7 @@ h1 {
 .accueilP {
     font-size: 12px;
     position: absolute;
-    left: 1250px;
+    left: 1120px;
     top: 306px;
 }
 
@@ -110,210 +110,47 @@ main {
     justify-content: center;
 }
 
-/* IDENTITÉ -------------------------------------------------------------- */
-
-/* StationSpatialBlue -------------------------------------------------------------- */
-
-.embarquezStationSpatialBlueCercle {
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    clip-path: circle(7px);
-    left: 900px;
-    top: 1350px;
-    background-color: white;
+.incarnez {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top, transparent, 95%, rgb(0, 0, 0)),
+    url("/img/ripley.jpg");
+    background-size: cover;
+    background-position: right;
+    display: flex;
+    justify-content: center;
 }
 
-.embarquezStationSpatialBlueLine1 {
-    position: absolute;
-    width: 46px;
-    height: 0.2%;
-    left: 920px;
-    top: 1325px;
-    transform: rotate(-45deg);
-    border-radius: 2px;
-    background-color: white;
+.explorez {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top, transparent, 95%, rgb(0, 0, 0)),
+    url("/img/exploration.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
 }
 
-.embarquezStationSpatialBlueLine2 {
-    position: absolute;
-    width: 150px;
-    height: 0.2%;
-    left: 958px;
-    top: 1309px;
-    border-radius: 2px;
-    background-color: white;
+.seCacher {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top, transparent, 95%, rgb(0, 0, 0)),
+    url("/img/alien-isolation-affiche.webp");
+    background-size: cover;
+    background-position: right;
+    display: flex;
+    justify-content: center;
 }
 
-.embarquezStationSpatialBlueP {
-    font-size: 12px;
-    position: absolute;
-    left: 1150px;
-    top: 1302px;
+.affrontez {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top, transparent, 95%, rgb(0, 0, 0)),
+    url("/img/couloir-alien-red.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
 }
-
-/* Ripley -------------------------------------------------------------- */
-
-.incarnezRipleyCercle {
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    clip-path: circle(7px);
-    left: 600px;
-    top: 2300px;
-    background-color: white;
-}
-
-.incarnezRipleyLine1 {
-    position: absolute;
-    width: 46px;
-    height: 0.2%;
-    left: 552px;
-    top: 2275px;
-    transform: rotate(45deg);
-    border-radius: 2px;
-    background-color: white;
-}
-
-.incarnezRipleyLine2 {
-    position: absolute;
-    width: 150px;
-    height: 0.2%;
-    left: 410px;
-    top: 2259px;
-    border-radius: 2px;
-    background-color: white;
-}
-
-.incarnezRipleyP {
-    font-size: 12px;
-    position: absolute;
-    left: 280px;
-    top: 2252px;
-}
-
-/* Exploration -------------------------------------------------------------- */
-
-.explorezExplorationCercle {
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    clip-path: circle(7px);
-    left: 900px;
-    top: 3255px;
-    background-color: white;
-}
-
-.explorezExplorationLine1 {
-    position: absolute;
-    width: 46px;
-    height: 0.2%;
-    left: 920px;
-    top: 3232px;
-    transform: rotate(-45deg);
-    border-radius: 2px;
-    background-color: white;
-}
-
-.explorezExplorationLine2 {
-    position: absolute;
-    width: 150px;
-    height: 0.2%;
-    left: 958px;
-    top: 3216px;
-    border-radius: 2px;
-    background-color: white;
-}
-
-.explorezExplorationP {
-    font-size: 12px;
-    position: absolute;
-    left: 1150px;
-    top: 3209px;
-}
-
-/* AlienIsolationAffiche -------------------------------------------------------------- */
-
-.seCacherAlienIsolationAfficheCercle {
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    clip-path: circle(7px);
-    left: 600px;
-    top: 4200px;
-    background-color: white;
-}
-
-.seCacherAlienIsolationAfficheLine1 {
-    position: absolute;
-    width: 46px;
-    height: 0.2%;
-    left: 552px;
-    top: 4178px;
-    transform: rotate(45deg);
-    border-radius: 2px;
-    background-color: white;
-}
-
-.seCacherAlienIsolationAfficheLine2 {
-    position: absolute;
-    width: 150px;
-    height: 0.2%;
-    left: 410px;
-    top: 4162px;
-    border-radius: 2px;
-    background-color: white;
-}
-
-.seCacherAlienIsolationAfficheP {
-    font-size: 12px;
-    position: absolute;
-    left: 280px;
-    top: 4155px;
-}
-
-/* CouloirAlienRed -------------------------------------------------------------- */
-
-.affrontezCouloirAlienRedCercle {
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    clip-path: circle(7px);
-    left: 900px;
-    top: 5150px;
-    background-color: white;
-}
-
-.affrontezCouloirAlienRedLine1 {
-    position: absolute;
-    width: 46px;
-    height: 0.2%;
-    left: 920px;
-    top: 5127px;
-    transform: rotate(-45deg);
-    border-radius: 2px;
-    background-color: white;
-}
-
-.affrontezCouloirAlienRedLine2 {
-    position: absolute;
-    width: 150px;
-    height: 0.2%;
-    left: 958px;
-    top: 5111px;
-    border-radius: 2px;
-    background-color: white;
-}
-
-.affrontezCouloirAlienRedP {
-    font-size: 12px;
-    position: absolute;
-    left: 1150px;
-    top: 5103px;
-}
-
-/* FIN IDENTITÉ -------------------------------------------------------------- */
-
 
 .embarquezPosition,
 .explorezPosition,
@@ -348,7 +185,8 @@ main {
 h2 {
     position: relative;
     top: -10%;
-    font-size: 2em;
+    font-size: 2.5em;
+    -webkit-text-stroke: 1px black;
 }
 
 .embarquez img,
@@ -363,56 +201,28 @@ h2 {
     border-radius: 10px 10px 10px 10px;
 }
 
-.incarnez {
-    width: 100vw;
-    height: 100vh;
-    background: linear-gradient(to top, transparent, 95%, rgb(0, 0, 0)),
-    url("/img/ripley.jpg");
-    background-size: cover;
-    display: flex;
-    justify-content: center;
+.incarnez img,
+.seCacher img {
+    object-position: right;
 }
 
-.explorez {
-    width: 100vw;
-    height: 100vh;
-    background: linear-gradient(to top, transparent, 95%, rgb(0, 0, 0)),
-    url("/img/exploration.jpg");
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-}
-
-.seCacher {
-    width: 100vw;
-    height: 100vh;
-    background: linear-gradient(to top, transparent, 95%, rgb(0, 0, 0)),
-    url("/img/alien-isolation-affiche.webp");
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-}
-
-.affrontez {
-    width: 100vw;
-    height: 100vh;
-    background: linear-gradient(to top, transparent, 95%, rgb(0, 0, 0)),
-    url("/img/couloir-alien-red.jpg");
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-}
-
-/* .embarquez,
-.incarnez,
-.explorez,
-.seCacher,
-.affrontez {
-    width: 100%;
+.seCacherPositionLeft,
+.incarnezPositionLeft,
+.embarquezPositionRight,
+.explorezPositionRight,
+.affrontezPositionRight {
+    width: 50%;
     height: 100%;
-    background-color: blue;
-} */
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
 
+h3 {
+    font-size: 2em;
+    text-align: center;
+    -webkit-text-stroke: 1px black;
+}
 
 .footer {
     width: 100%;
@@ -446,7 +256,7 @@ footer {
 }
 
 .footerNav {
-    width: 70%;
+    width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -489,402 +299,6 @@ footer {
 
 .logos img {
     width: 50%;
-    height: 100%;
-    object-fit: contain;
-}
-
-/* CONTACT -------------------------------------------------------------- */
-
-#contactBackground {
-    width: 100vw;
-    height: 100vh;
-    background-image: url(/img/contact-ripley.png);
-    background-size:cover;
-    background-position: center;
-    display: none;
-    justify-content: center;
-    align-items: center;
-}
-
-.containerForm {
-    position: relative;
-    left: 10%;
-    top: -5%;
-    /* width: 30%; */
-    width: clamp(300px, 35%, 35%);
-    height: clamp(500px, 80%,80%);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid white;
-    backdrop-filter: blur(10%);
-    -webkit-backdrop-filter: blur(10px);
-    border-radius: 7px;
-}
-
-form {
-    width: 80%;
-    height: 85%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.input1,
-.input2,
-.input5 {
-    width: 100%;
-    height: 7%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.input1 input,
-.input2 input,
-.input5 input {
-    width: 48%;
-    height: 100%;
-    padding-left: 10px;
-    border-radius: 5px 0px 5px 0px;
-    background-color: rgba(0, 0, 0, 0.5);
-    border: 0.5px solid rgba(255, 255, 255, 0.5);
-}
-
-.input1 input:hover,
-.input2 input:hover,
-.input5 input:hover,
-.input3 input:hover,
-.input4 input:hover,
-.inputComment input:hover {
-    border: 0.5px solid white;
-}
-
-.input3,
-.input4 {
-    width: 100%;
-    height: 7%;
-}
-
-.input3 input,
-.input4 input {
-    width: 100%;
-    height: 100%;
-    padding-left: 10px;
-    border-radius: 5px 0px 5px 0px;
-    background-color: rgba(0, 0, 0, 0.5);
-    border: 0.5px solid rgba(255, 255, 255, 0.5);
-}
-
-.inputComment  {
-    width: 100%;
-    height: 15%;
-}
-
-.inputComment input {
-    width: 100%;
-    height: 100%;
-    padding-left: 10px;
-    border-radius: 10px 0px 10px 0px;
-    background-color: rgba(0, 0, 0, 0.5);
-    border: 0.5px solid rgba(255, 255, 255, 0.5);
-}
-
-.input7 {
-    width: 100%;
-    height: 10%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.input7 input {
-    width: 45%;
-    height: 90%;
-    border-radius: 0px 5px 0px 5px;
-    background-color: transparent;
-    backdrop-filter: blur(100%);
-    -webkit-backdrop-filter: blur(100px);
-    border: 0.5px solid rgba(255, 255, 255, 0.5);
-}
-
-.input7 input:hover {
-    background-color: rgba(255, 255, 255, 0.05);
-    border: 0.5px solid white;
-}
-
-.input7 input,
-::placeholder {
-    font-family: 'Orbitron', sans-serif; 
-}
-
-.containerP {
-    width: 100%;
-    height: 5%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    /* background-color: green; */
-}
-
-.positionP {
-    /* background-color: blue; */
-    width: 50%;
-    height: 70%;
-    margin-right: 10px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-}
-
-.positionP p {
-    font-size: 0.7em;
-    opacity: 0.7;
-}
-
-/* .name::before {
-    content: '';
-    position: absolute;
-    z-index: 2;
-    transform: rotate(90deg);
-    top: 1.7%;
-    left: 36.1%;
-    width: 4.4%;
-    height: 15.1%;
-    border-top: 0.2px solid white;
-    border-left: 0.2px solid white;
-    background-color: red;
-}
-
-.input1::after {
-    content: '';
-    position: absolute;
-    z-index: -1;
-    transform: rotate(270deg);
-    top: 4.1%;
-    left: 17.7%;
-    width: 4.4%;
-    height: 15.1%;
-    border-top: 0.2px solid white;
-    border-left: 0.2px solid white;
-}
-
-.input2::before {
-    content: '';
-    position: absolute;
-    z-index: -1;
-    transform: rotate(90deg);
-    top: 1.7%;
-    left: 77.8%;
-    width: 4.4%;
-    height: 15.1%;
-    border-top: 0.2px solid white;
-    border-left: 0.2px solid white;
-}
-
-.input2::after {
-    content: '';
-    position: absolute;
-    z-index: -1;
-    transform: rotate(270deg);
-    top: 4.1%;
-    left: 59.3%;
-    width: 4.4%;
-    height: 15.1%;
-    border-top: 0.2px solid white;
-    border-left: 0.2px solid white;
-}
-
-.input3::before {
-    content: '';
-    position: absolute;
-    z-index: -1;
-    transform: rotate(90deg);
-    top: 13.3%;
-    left: 36.1%;
-    width: 4.4%;
-    height: 15.1%;
-    border-top: 0.2px solid white;
-    border-left: 0.2px solid white;
-}
-
-.input3::after {
-    content: '';
-    position: absolute;
-    z-index: -1;
-    transform: rotate(270deg);
-    top: 15.7%;
-    left: 17.7%;
-    width: 4.4%;
-    height: 15.1%;
-    border-top: 0.2px solid white;
-    border-left: 0.2px solid white;
-}
-
-.input4::before {
-    content: '';
-    position: absolute;
-    z-index: -1;
-    transform: rotate(90deg);
-    top: 13.3%;
-    left: 77.8%;
-    width: 4.4%;
-    height: 15.1%;
-    border-top: 0.2px solid white;
-    border-left: 0.2px solid white;
-}
-
-.input4::after {
-    content: '';
-    position: absolute;
-    z-index: -1;
-    transform: rotate(270deg);
-    top: 15.7%;
-    left: 59.3%;
-    width: 4.4%;
-    height: 15.1%;
-    border-top: 0.2px solid white;
-    border-left: 0.2px solid white;
-} */
-
-/* BOUTIQUE -------------------------------------------------------------- */
-
-#boutiqueBackground {
-    width: 100vw;
-    height: 100vh;
-    background-image: url(/img/station-spatial-green.jpeg);
-    background-size:cover;
-    background-position: center;
-    display: none;
-    justify-content: center;
-    align-items: center;
-}
-
-.boutique {
-    border-top-right-radius: 7px;
-}
-
-.notification {
-    position: absolute;
-    width: 2%;
-    height: 2%;
-    clip-path: circle(7px);
-    top: 9.3%;
-    left: 91.2%;
-    background-color: red;
-}
-
-.panierGlobal {
-    position: relative;
-    top: -15%;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    /* align-items: center; */
-    /* background-color:red; */
-}
-
-.selectionJeux {
-    width: 50%;
-    height: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    /* background-color: aqua; */
-}
-
-.backJeux {
-    width: 30%;
-    height: 30%;
-}
-
-.backJeuxCote {
-    width: 25%;
-    height: 25%;
-}
-
-.backJeuxCote,
-.backJeux {
-    border-radius: 5px;
-    border: 0.5px solid white;
-    background-color: rgba(255, 255, 255, 0.02);
-    backdrop-filter: blur(15px);
-    -webkit-backdrop-filter: blur(15px);
-}
-
-.backJeuxCote,
-.backJeux {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.selectionJeux article {
-    width: 90%;
-    height: 90%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.selectionJeux article img {
-    width: 90%;
-    height: 90%;
-    object-fit: contain;
-}
-
-.panier {
-    position: absolute;
-    z-index: 2;
-    top: 4%;
-    left: 53%;
-    width: 45%;
-    height: 90%;
-    display: flex;
-    flex-direction: column;
-    border-radius: 10px;
-    border: 0.2px solid white;
-    background-color: rgba(0, 0, 0, 0.5);
-    backdrop-filter: blur(15px);
-    -webkit-backdrop-filter: blur(15px);
-}
-
-.h1 {
-    width: 100%;
-    height: 10%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.banniere {
-    width: 100%;
-    height: 5%;
-    display: flex;
-    align-items: center;
-    border: 0.2px solid white;
-    background-color: rgba(0, 0, 0, 0.5);
-    backdrop-filter: blur(15px);
-    -webkit-backdrop-filter: blur(15px);
-}
-
-.banniere p {
-    font-size: 0.7em;
-}
-
-.ripley {
-    position: relative;
-    top: -65%;
-    left: 50%;
-    width: 50%;
-    height: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-}
-
-.ripley img {
-    width: 100%;
     height: 100%;
     object-fit: contain;
 }

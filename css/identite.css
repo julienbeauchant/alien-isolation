@@ -1,0 +1,203 @@
+/* IDENTITÉ -------------------------------------------------------------- */
+
+/* StationSpatialBlue -------------------------------------------------------------- */
+
+.embarquezStationSpatialBlueCercle {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    clip-path: circle(7px);
+    left: 900px;
+    top: 1350px;
+    background-color: white;
+}
+
+.embarquezStationSpatialBlueLine1 {
+    position: absolute;
+    width: 46px;
+    height: 0.2%;
+    left: 920px;
+    top: 1325px;
+    transform: rotate(-45deg);
+    border-radius: 2px;
+    background-color: white;
+}
+
+.embarquezStationSpatialBlueLine2 {
+    position: absolute;
+    width: 150px;
+    height: 0.2%;
+    left: 958px;
+    top: 1309px;
+    border-radius: 2px;
+    background-color: white;
+}
+
+.embarquezStationSpatialBlueP {
+    font-size: 12px;
+    position: absolute;
+    left: 1150px;
+    top: 1302px;
+}
+
+/* Ripley -------------------------------------------------------------- */
+
+.incarnezRipleyCercle {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    clip-path: circle(7px);
+    left: 600px;
+    top: 2300px;
+    background-color: white;
+}
+
+.incarnezRipleyLine1 {
+    position: absolute;
+    width: 46px;
+    height: 0.2%;
+    left: 552px;
+    top: 2275px;
+    transform: rotate(45deg);
+    border-radius: 2px;
+    background-color: white;
+}
+
+.incarnezRipleyLine2 {
+    position: absolute;
+    width: 150px;
+    height: 0.2%;
+    left: 410px;
+    top: 2259px;
+    border-radius: 2px;
+    background-color: white;
+}
+
+.incarnezRipleyP {
+    font-size: 12px;
+    position: absolute;
+    left: 280px;
+    top: 2252px;
+}
+
+/* Exploration -------------------------------------------------------------- */
+
+.explorezExplorationCercle {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    clip-path: circle(7px);
+    left: 900px;
+    top: 3255px;
+    background-color: white;
+}
+
+.explorezExplorationLine1 {
+    position: absolute;
+    width: 46px;
+    height: 0.2%;
+    left: 920px;
+    top: 3232px;
+    transform: rotate(-45deg);
+    border-radius: 2px;
+    background-color: white;
+}
+
+.explorezExplorationLine2 {
+    position: absolute;
+    width: 150px;
+    height: 0.2%;
+    left: 958px;
+    top: 3216px;
+    border-radius: 2px;
+    background-color: white;
+}
+
+.explorezExplorationP {
+    font-size: 12px;
+    position: absolute;
+    left: 1150px;
+    top: 3209px;
+}
+
+/* AlienIsolationAffiche -------------------------------------------------------------- */
+
+.seCacherAlienIsolationAfficheCercle {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    clip-path: circle(7px);
+    left: 600px;
+    top: 4200px;
+    background-color: white;
+}
+
+.seCacherAlienIsolationAfficheLine1 {
+    position: absolute;
+    width: 46px;
+    height: 0.2%;
+    left: 552px;
+    top: 4178px;
+    transform: rotate(45deg);
+    border-radius: 2px;
+    background-color: white;
+}
+
+.seCacherAlienIsolationAfficheLine2 {
+    position: absolute;
+    width: 150px;
+    height: 0.2%;
+    left: 410px;
+    top: 4162px;
+    border-radius: 2px;
+    background-color: white;
+}
+
+.seCacherAlienIsolationAfficheP {
+    font-size: 12px;
+    position: absolute;
+    left: 280px;
+    top: 4155px;
+}
+
+/* CouloirAlienRed -------------------------------------------------------------- */
+
+.affrontezCouloirAlienRedCercle {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    clip-path: circle(7px);
+    left: 900px;
+    top: 5150px;
+    background-color: white;
+}
+
+.affrontezCouloirAlienRedLine1 {
+    position: absolute;
+    width: 46px;
+    height: 0.2%;
+    left: 920px;
+    top: 5127px;
+    transform: rotate(-45deg);
+    border-radius: 2px;
+    background-color: white;
+}
+
+.affrontezCouloirAlienRedLine2 {
+    position: absolute;
+    width: 150px;
+    height: 0.2%;
+    left: 958px;
+    top: 5111px;
+    border-radius: 2px;
+    background-color: white;
+}
+
+.affrontezCouloirAlienRedP {
+    font-size: 12px;
+    position: absolute;
+    left: 1150px;
+    top: 5103px;
+}
+
+/* FIN IDENTITÉ -------------------------------------------------------------- */
