@@ -1,7 +1,7 @@
 const clickAjouterPc = document.querySelector(`.ajouterPc`)
 const clickAjouterPs4 = document.querySelector(`.ajouterPs4`)
 const clickAjouterXbox = document.querySelector(`.ajouterXbox`)
-const clickCroix = document.querySelector(`.croix`)
+const clickPositionCroixImg = document.querySelector(`.positionCroixImg`)
 const panier = document.querySelector(`.panier`)
 
 clickAjouterPc.addEventListener('click', () => {
@@ -16,6 +16,6 @@ clickAjouterXbox.addEventListener('click', () => {
     panier.style.display = 'flex';
 });
 
-clickCroix.addEventListener('click', () => {
+clickPositionCroixImg.addEventListener('click', () => {
     panier.style.display = 'none';
 });
