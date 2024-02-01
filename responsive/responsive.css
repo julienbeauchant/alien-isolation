@@ -21,3 +21,59 @@
         display: none;
     }
 }
+
+@media screen and (max-width: 930px) {
+    .navbar {
+        position: fixed;
+        top: 40px;
+        width: 90%;
+        height: 10%;
+        display: flex;
+        justify-content: center;
+    }
+    .navbarPosition {
+        width: 90%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    #menuIcon {
+        width: 30px;
+        height: 30px;
+    }
+    
+    #menuIcon img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+    
+    #menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        top: 77px;
+        left: 50%;
+        width: 50%;
+        display: none;
+    }
+    
+    #menu a {
+        padding: 15px;
+        text-decoration: none;
+        color: #fff;
+        text-align: center;
+        font-size: 18px;
+        border: 0.5px solid #ffffff;
+        width: 100%;
+        backdrop-filter: blur(15px);
+        -webkit-backdrop-filter: blur(15px);
+        box-sizing: border-box;
+    }
+
+    #menu a li {
+        list-style: none;
+    }
+}
