@@ -165,5 +165,7 @@ const menuIcon = document.querySelector(`#menuIcon`)
 const menu = document.querySelector(`#menu`)
 
 menuIcon.addEventListener('click', () => {
-  menu.style.display = 'flex'
+  menu.style.display = 'flex';
+  menuIcon.src = "img/croix.png"
 });
+
