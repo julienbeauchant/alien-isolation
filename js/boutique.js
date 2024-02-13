@@ -1,18 +1,18 @@
-const clickAjouterPc = document.querySelector(`.ajouterPc`)
-const clickAjouterPs4 = document.querySelector(`.ajouterPs4`)
-const clickAjouterXbox = document.querySelector(`.ajouterXbox`)
+const clickBtnPositionPlusPc = document.querySelector(`.btnPositionPlusPc`)
+const clickBtnPositionPlusPs4 = document.querySelector(`.btnPositionPlusPs4`)
+const clickBtnPositionPlusXbox = document.querySelector(`.btnPositionPlusXbox`)
 const clickPositionCroixImg = document.querySelector(`.positionCroixImg`)
 const panier = document.querySelector(`.panier`)
 
-clickAjouterPc.addEventListener('click', () => {
+clickBtnPositionPlusPc.addEventListener('click', () => {
     panier.style.display = 'flex';
 });
 
-clickAjouterPs4.addEventListener('click', () => {
+clickBtnPositionPlusPs4.addEventListener('click', () => {
     panier.style.display = 'flex';
 });
 
-clickAjouterXbox.addEventListener('click', () => {
+clickBtnPositionPlusXbox.addEventListener('click', () => {
     panier.style.display = 'flex';
 });
 

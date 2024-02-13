@@ -135,3 +135,115 @@ h5 {
     background-color: rgba(255, 255, 255, 0.07);
     border: 1px solid white;
 }
+
+
+
+.commandeArtcile {
+    width: 100%;
+    height: 55%;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+}
+
+.commandeArtcile article {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.commandeArtcile article img {
+    width: 50%;
+    height: 70%;
+    object-fit: contain;
+    /* background-color: blue; */
+}
+
+.pcAchatCommande,
+.ps4AchatCommande,
+.xboxAchaCommande {
+    width: 45%;
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: green; */
+}
+
+
+.ajouterPcCommande P,
+.ajouterPs4Commande p,
+.ajouterXboxCommande p {
+    font-size: 0.8em;
+}
+
+.ajouterPcCommande,
+.ajouterPs4Commande,
+.ajouterXboxCommande {
+    width: 55%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.5px solid white;
+    border-radius: 3px;
+}
+
+.globalPayement {
+    width: 100%;
+    height: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.prixTotal {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.total, 
+.aPayer{
+    width: 50%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aPayer {
+    border: 0.5px solid white;
+    border-radius: 5px;
+}
+
+.payer {
+    width: 50%;
+    height: 67%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.payement {
+    width: 50%;
+    height: 38%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.5px solid white;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+
+.payement:hover {
+    border: 1px solid white;
+}

@@ -62,8 +62,8 @@
     
     #menu li {
         position: relative;
-        left: 230px;
-        width: 150%;
+        left: -215px;
+        width: 500%;
         padding: 15px;
         text-align: center;
         list-style: none;
